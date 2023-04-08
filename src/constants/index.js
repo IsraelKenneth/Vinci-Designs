@@ -19,10 +19,8 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
+    Project31, Project32, Project33, Project34, firebase, github, Googledrive, Project21, Project22, Project23, Project11, Project12, Project13
 } from "../assets";
 
 export const navLinks = [
@@ -198,9 +196,9 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Gym Fitness",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "A responsive fitness website for a fitness gym with seamless experience for the customers who come to the gym and new customers too, with features such as an intuitive navigation.",
         tags: [
             {
                 name: "react",
@@ -215,8 +213,9 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
+        image: Project11,
         source_code_link: "https://github.com/",
+        source: github
     },
     {
         name: "Job IT",
@@ -236,8 +235,9 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
+        image: Project12,
         source_code_link: "https://github.com/",
+        source: github
     },
     {
         name: "Trip Guide",
@@ -257,9 +257,178 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
+        image: Project13,
         source_code_link: "https://github.com/",
+        source: github
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const projects2 = [
+    {
+        name: "Kent Chemist",
+        description:
+            "This includes an intuitive interface that allows users to easily access online pharmacy services. The design features a streamlined layout with clear navigation options, making it simple for users to search for and purchase medications from the comfort of their own homes.",
+        tags: [
+            {
+                name: "Adobe Photoshop",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Adobe Illustrator",
+                color: "text-[#FEC20C]",
+            },
+        ],
+        image: Project22,
+        source_code_link: "https://drive.google.com/drive/folders/13-LIY5QLgf73l6ZqljJdDOFmkb5OPkHu?usp=share_link",
+        source: figma
+    },
+    {
+        name: "Swiss Post",
+        description:
+            "A user-friendly interface with intuitive navigation options, allowing users to easily access postal and courier services including clear call-to-action buttons and a streamlined checkout process, making it simple for users to send and receive packages from anywhere in the world.",
+        tags: [
+            {
+                name: "Adobe Photoshop",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Adobe Illustrator",
+                color: "text-[#FEC20C]",
+            },
+        ],
+        image: Project23,
+        source_code_link: "https://drive.google.com/drive/folders/13-LIY5QLgf73l6ZqljJdDOFmkb5OPkHu?usp=share_link",
+        source: figma
+    },
+    {
+        name: "Ecommerce App",
+        description:
+            "Features a clean and modern layout that showcases products in an attractive and easy-to-browse format, includes an intuitive search and filtering options, a seamless checkout process, and multiple payment gateway integrations to ensure a smooth and secure online shopping experience.",
+        tags: [
+            {
+                name: "Adobe Photoshop",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Adobe Illustrator",
+                color: "text-[#FEC20C]",
+            },
+        ],
+        image: Project21,
+        source_code_link: "https://drive.google.com/drive/folders/13-LIY5QLgf73l6ZqljJdDOFmkb5OPkHu?usp=share_link",
+        source: figma
+    },
+
+];
+
+
+const projects3 = [
+    {
+        name: "Branding",
+        description:
+            "Design that showcases a diverese range of creative works, for companies I have worked with.",
+        tags: [
+            {
+                name: "Adobe Photoshop",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Adobe Illustrator",
+                color: "text-[#FEC20C]",
+            },
+        ],
+        image: Project34,
+        source_code_link: "https://drive.google.com/drive/folders/13-LIY5QLgf73l6ZqljJdDOFmkb5OPkHu?usp=share_link",
+        source: Googledrive
+    },
+    {
+        name: "Logo creation",
+        description:
+            "Design that showcases a diverese range of Logo works, for companies I have worked with.",
+        tags: [
+            {
+                name: "Adobe Photoshop",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Adobe Illustrator",
+                color: "text-[#FEC20C]",
+            },
+        ],
+        image: Project31,
+        source_code_link: "https://drive.google.com/drive/folders/13-LIY5QLgf73l6ZqljJdDOFmkb5OPkHu?usp=share_link",
+        source: Googledrive
+    },
+    {
+        name: "Flyer",
+        description:
+            "Design that showcases a diverese range of creative flyers, for companies I have worked with.",
+        tags: [
+            {
+                name: "Adobe Photoshop",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Adobe Illustrator",
+                color: "text-[#FEC20C]",
+            },
+        ],
+        image: Project33,
+        source_code_link: "https://drive.google.com/drive/folders/13-LIY5QLgf73l6ZqljJdDOFmkb5OPkHu?usp=share_link",
+        source: Googledrive
+    },
+
+];
+
+const Techs = [
+    {
+        image: html,
+        name: "HTML",
+    },
+    {
+        image: css,
+        name: "CSS",
+    },
+    {
+        image: javascript,
+        name: "JAVASCRIPT",
+    },
+    {
+        image: reactjs,
+        name: "REACT",
+    },
+    {
+        image: git,
+        name: "GITHUB",
+    },
+    {
+        image: nodejs,
+        name: "NODE JS",
+    },
+    {
+        image: mongodb,
+        name: "MONGO DB",
+    },
+    {
+        image: tailwind,
+        name: "TAILWIND",
+    },
+    {
+        image: firebase,
+        name: "FIREBASE",
+    },
+    {
+        image: docker,
+        name: "DOCKER",
+    },
+    {
+        image: figma,
+        name: "FIGMA",
+    },
+    {
+        image: threejs,
+        name: "THREEJS",
+    }
+]
+
+export { services, technologies, experiences, testimonials, projects, Techs, projects3, projects2 };

@@ -1,4 +1,5 @@
 import logo from "./logo.png";
+import mod from "./3d-mod.png"
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -20,15 +21,29 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import firebase from "./tech/firebase.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import Project11 from "../assets/project/Web-dev/A.I.png"
+import Project12 from "../assets/project/Web-dev/gym.png"
+import Project13 from "../assets/project/Web-dev/Travel.png"
+
+import Project31 from "../assets/project/Branding/fabric-logo.png"
+import Project32 from "../assets/project/Branding/mimosa.jpg"
+import Project33 from "../assets/project/Branding/flyer.jpg"
+import Project34 from "../assets/project/Branding/sol.jpg"
+import Googledrive from "../assets/project/Branding/google-drive-logo-0-1.png"
+
+import Project21 from "../assets/project/Figma/Ecommerce.png"
+import Project22 from "../assets/project/Figma/kentChem.png"
+import Project23 from "../assets/project/Figma/SwissPost.png"
+
+import texture from "../assets/5132609.jpg"
+
 
 export {
   logo,
@@ -56,7 +71,6 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  mod, firebase, Googledrive, Project21, Project22, Project23,
+  Project31, Project32, Project33, Project34, texture, Project11, Project12, Project13,
 };
